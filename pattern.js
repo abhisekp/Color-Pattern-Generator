@@ -6,11 +6,11 @@ function show_pattern() {
         left_position = 350,
         width = 300,
         height = 300;
-    var color_list = ["OrangeRed", "DeepPink", "Gold", "LawnGreen", "SpringGreen", "SteelBlue", "OliveDrab"];
+    var color_list = ["OrangeRed", "DeepPink", "Gold", "LawnGreen", "SpringGreen", "SteelBlue", "OliveDrab", "Red", "Magenta", "Wheat"];
 
     while (width > 50) {
         var this_div = document.createElement("div");
-        var random_color = Math.floor(Math.random() * 7);
+        var random_color = Math.floor(Math.random() * 10);
 
         this_div.style.top = top_position + "px";
         this_div.style.left = left_position + "px";

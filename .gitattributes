@@ -1,0 +1,58 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+# You may set local "core.autocrlf" to "input" for seamless editing without any modified status messages if your editor automatically puts a LF instead of CRLF.
+* text=auto
+
+# Source files
+*.js text
+*.html text
+*.css text
+*.json text
+*.map text
+
+# Image files
+*.png binary
+*.jpg binary
+*.gif binary
+*.jpeg binary
+
+# Image/Font files (text based)
+*.svg eol=lf
+
+# Icon
+*.ico binary
+
+# Scripts
+*.bat eol=crlf
+*.cmd eol=crlf
+*.sh eol=lf
+
+# Normal text files
+*.md text
+
+# Config files
+.csslintrc text
+.eslintrc text
+.eslintignore text
+.gitignore text
+.htmlhintrc text
+.jsbeautifyrc text
+
+# Project description files
+LICENSE text
+
+# File for keeping a directory in repo
+.gitkeep -text
+
+# Font files
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.otf binary
+
+# Ignore files/directories in archive
+test/ export-ignore
+bin/ export-ignore
+
+# Store the commit
+LAST_COMMIT export-subst

@@ -1,19 +1,16 @@
-### Generates random colored squares
+### Colored Square Generator
+Use the pattern library to create colored square patterns.
 
-[Check it out !](http://strider99.github.io/Colored-Squared-generator/)
+[Check it out !](http://abhisekp.github.io/Colored-Square-generator/)
 
 A few snapshots
 
-![image1](http://i.imgur.com/xTvLPEo.png)
+### Mixed Contrast
+![image1](http://i.imgur.com/NRrdIDX.png)
 
-![image2](http://i.imgur.com/tn7XR2o.png)
+### Dark Contrast
+![image2](http://i.imgur.com/9EVh6D8.png)
 
-
-
-
-
-
-
-
-
-
+### TODO
+- Improve options for pattern generation
+- Fix n pattern generation

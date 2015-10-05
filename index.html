@@ -2,20 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Random colored Square Generator</title>
-    <meta http-equiv="refresh" content="1">
-    <style>
-        div {
-            position: absolute;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Random colored Square Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vendor/log4javascript.js"></script>
 </head>
 
-<body id="theBody" onload="show_pattern()">
+<body>
+  <div class="pattern" data-pattern="10" data-pattern-animation="inside-out"></div>
 
-    <script src="pattern.js">
-    </script>
+    <div class="pattern" style="width: 500px; height: 500px;" data-pattern="15" data-pattern-animation="inside-out" data-pattern-contrast="DARK"></div>
+  <script src="js/pattern.js"></script>
 </body>
 
 </html>

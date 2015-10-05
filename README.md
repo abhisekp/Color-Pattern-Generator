@@ -14,3 +14,6 @@ A few snapshots
 ### TODO
 - Improve options for pattern generation
 - Fix n pattern generation
+
+# Credits
+@strider99 for the pattern library idea :+1:

@@ -19,6 +19,7 @@
          break;
      case 'development':
          defaultLogLevel = log4js.Level.DEBUG;
+         break;
      default:
          defaultLogLevel = log4js.Level.ALL;
      }

@@ -1,4 +1,4 @@
-# Created by https://www.gitignore.io/api/windows,linux,osx,webstorm,komodoedit,eclipse,emacs,slickedit,notepadpp,netbeans,kate,cloud9,anjuta,dreamweaver,textmate,espresso,visualstudio,visualstudiocode,vim,sublimetext,vagrant,tortoisegit,node
+# Created by https://www.gitignore.io/api/windows,linux,osx,webstorm,komodoedit,eclipse,emacs,slickedit,notepadpp,netbeans,kate,cloud9,anjuta,dreamweaver,textmate,espresso,visualstudio,visualstudiocode,vim,sublimetext,vagrant,tortoisegit,node,bower
 
 ### Windows ###
 # Windows image file caches
@@ -542,6 +542,14 @@ build/Release
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
+
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
 
 ### CUSTOM IGNORES ###
 # Override entries of GitIgnore API generated output

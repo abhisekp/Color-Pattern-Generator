@@ -1,0 +1,37 @@
+{
+  "name": "Color-Pattern-Generator",
+  "version": "2.0.0",
+  "homepage": "https://github.com/abhisekp/Color-Pattern-Generator",
+  "authors": [
+    "Abhisek Pattnaik <abhisekp@engineer.com>"
+  ],
+  "description": "A color pattern generator library",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "color",
+    "pattern",
+    "generator"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "jquery": "~1.11.3",
+    "font-awesome": "fontawesome#~4.4.0",
+    "qunit": "~1.19.0",
+    "bootstrap": "~3.3.5"
+  }
+}

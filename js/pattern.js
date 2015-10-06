@@ -185,7 +185,7 @@
                  'pattern-controller': 'default',
                  'pattern-contrast': ''
              };
-             options_ = getDataAttribs(container, 'pattern');
+             var options_ = getDataAttribs(container, 'pattern');
              Object.keys(options_).forEach(function (key) {
                  options[key] = options_[key];
              });
@@ -240,7 +240,7 @@
              left = 0;
          for (var i = 0; i < nPatterns; i++) {
              if (i % 2 === 0) { // even
-                 div = d.createElement('div');
+                 var div = d.createElement('div');
                  div.style.backgroundColor = rgbString(colorPattern[i]);
                  div.style.width = width + 'px';
                  div.style.height = height + 'px';

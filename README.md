@@ -6,10 +6,10 @@ Use the pattern library to create colored square patterns.
 A few snapshots
 
 ### Mixed Contrast
-![](http://i.imgur.com/NRrdIDX.png)
+![](http://i.imgur.com/Vw5KotO.png)
 
 ### Dark Contrast
-![](http://i.imgur.com/9EVh6D8.png)
+![](http://i.imgur.com/DvPqvj7.png)
 
 ### TODO
 - Improve options for pattern generation

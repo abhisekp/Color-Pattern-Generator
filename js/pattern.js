@@ -53,13 +53,14 @@
              contrast = false;
          colorType = (colorType || '').trim().toUpperCase();
          switch (colorType) {
-             case 'DARK':
-             case 'LIGHT':
-                contrast = false;
-                break;
-             case 'MIXED':
-             default:
-                 contrast = true;
+         case 'DARK':
+         case 'LIGHT':
+             contrast = false;
+             break;
+         case 'MIXED':
+         default:
+             contrast = true;
+             colorType = 'DARK';
          }
          while (numberOfColors--) {
              if (contrast) {

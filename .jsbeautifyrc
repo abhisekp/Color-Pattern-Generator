@@ -18,8 +18,8 @@
     "css": {
         "indent_char": " ",
         "indent_size": 2,
-        "preserve_newlines": true,
-        "max_preserve_newlines": 2,
+        "selector_separator_newline": false,
+        "newline_between_rules": true,
         "eol": "\n",
         "indent_level": 0,
         "indent_with_tabs": false,

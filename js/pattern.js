@@ -49,12 +49,19 @@
 
      function genColorPattern(numberOfColors, colorType) {
          var pattern = [],
-         contrast = false;
-         if(!colorType) {
-             contrast = true;
+             contrast = false;
+         colorType = (colorType || '').trim().toUpperCase();
+         switch (colorType) {
+             case 'DARK':
+             case 'LIGHT':
+                contrast = false;
+                break;
+             case 'MIXED':
+             default:
+                 contrast = true;
          }
          while (numberOfColors--) {
-             if(contrast) {
+             if (contrast) {
                  colorType = colorType === 'DARK' ? 'LIGHT' : 'DARK';
              }
              pattern.push(genRandomColor(colorType));
@@ -97,7 +104,7 @@
              min = Math.floor(256 / 4);
              max = Math.floor(256 * 3 / 4);
              break;
-         case 'LIGHTcd':
+         case 'LIGHT':
              min = Math.floor(256 / 2);
              max = 255;
          }

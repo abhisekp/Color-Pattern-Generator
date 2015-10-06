@@ -54,10 +54,12 @@
          colorType = (colorType || '').trim().toUpperCase();
          switch (colorType) {
          case 'DARK':
+             // falls through
          case 'LIGHT':
              contrast = false;
              break;
          case 'MIXED':
+             // falls through
          default:
              contrast = true;
              colorType = 'DARK';

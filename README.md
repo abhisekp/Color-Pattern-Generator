@@ -1,4 +1,7 @@
 ### Colored Square Generator
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/abhisekp/Color-Pattern-Generator.svg)](https://greenkeeper.io/)
+
 Use the pattern library to create colored square patterns.
 
 [Check it out !](https://abhisekp.github.io/Color-Pattern-Generator/)
